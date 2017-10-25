@@ -4,13 +4,13 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 0; /*Otorgamos margin y padding con valor 0*/
-  margin: 0;
   font-family: courier;
+  margin: 0;
+  padding: 0; /*Otorgamos margin y padding con valor 0*/
 }
 
 
-/*---TITULO DEL PROYECTO----*/
+/*---Colocamos el título al proyecto---*/
 h1{
 	width: 15%;
 	font-weight: bold;
@@ -19,53 +19,49 @@ h1{
 
 }
 
-/*LISTAS DESORDENADAS PARA COLOCAR LA IMAGEN*/
+
 ul{
-	list-style: none;
+	list-style: none; /*Eliminamos las viñetas de las listas donde colocaremos las imagenes*/
 }
+
 li{
-	
-	/*outline: 2px solid blue;*/
-	margin: 10px;
-	padding: 0px;
-	display: inline-block;
-	box-sizing: border-box;
-	position: relative; /*mientras sus cordenadas no esten
-	declaradas no afecta, permite q se mueva a donde se 
-	encuentra la caja posicionada*/
-	
-}
-img{
+  display: inline-block;
+ 	margin: 10px;
 	padding: 10px;
-	height: 160px;
-	width: 160px;
+	position: relative; /*Posicionamos en modo relativo para que sus "hijos" puedan ser posicionados */
 	
 }
+
+/*Definimos el tamaño para las imagenes*/
+img{
+  
+  height: 200px;
+  width: 150px; 
+	
+}
+
 p{
+  bottom: 20px;
+	color: rgb(204, 195, 195);
+  font-size: 11pt;
+  font-weight: bold;
+  left: 30px;
 	margin: 0px;
 	position: absolute;
-	left: 35px;
-	right: 10px;
-	bottom: 20px;
-	color: white;
-	font-size: 11pt;
-	/*outline: 1px solid red;*/	
-	font-weight: bold;
+	right: 15px;
 }
 
 
-.container{
-	margin: 10px;
-	width: 100%;
-	
-	list-style: none;
-	padding: 0px;
-	text-align: center;
+.block{
+  margin: 0px;
+	padding: 10px;
+  text-align: center;
+  width: 100%;
 
 }
 
 .border{
-	border-bottom: 5px solid black;
+	border: 2px solid #000;
 	width:5%;
-	margin-left: 29%;
+	margin-left:29%;
 }
