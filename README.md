@@ -1,11 +1,11 @@
-# AppLove
+# Nuestras coders
 
 
 ## Objetivo
 
-Maquetar la web **AppLove**, este es el resultado final:
+Maquetar la web **Nuestras coders**, este es el resultado final:
 
-![AppLove](https://fotos.subefotos.com/1edc0aab51f1d624da4a24ab86129d87o.png) 
+![Coders](assets/images/img-nuestras-coders.png) 
 
 ## Detalles adicionales
 
