@@ -6,103 +6,66 @@
   box-sizing: border-box;
   padding: 0; /*Otorgamos margin y padding con valor 0*/
   margin: 0;
+  font-family: courier;
 }
 
 
-* {
-  
-}
-/*Definiendo el ancho y posicion de la sección general */
-section {
-  width:530px;
-  margin: auto;
-}
-/*Definiendo los estilos del encabezado*/
-header{
-  margin: auto;
-  text-align: left;
-  width: 530px;
-  font-family: 'Arvo', serif;
-}
-/*Definiendo los estilos de la raya*/
-hr {
-width:4%;
-height:0.2em;
-background:black;
-border-radius:2em;
-margin-left:31.2%;
-}
-/*Dando un margen al texto del encabezado */
-h5{
-  margin-left: 12px;
-  margin-top: 8px;
+/*---TITULO DEL PROYECTO----*/
+h1{
+	width: 15%;
+	font-weight: bold;
+	font-size: 14pt;
+	margin-left:390px;	
 
 }
-/*Definiendo los estilos de los contenedores*/
-.container1 {
-  background-image:url("../assets/imgs/image1.jpg");
-  float: left;
-  background-repeat: no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 8px;
+
+/*LISTAS DESORDENADAS PARA COLOCAR LA IMAGEN*/
+ul{
+	list-style: none;
+}
+li{
+	
+	/*outline: 2px solid blue;*/
+	margin: 10px;
+	padding: 0px;
+	display: inline-block;
+	box-sizing: border-box;
+	position: relative; /*mientras sus cordenadas no esten
+	declaradas no afecta, permite q se mueva a donde se 
+	encuentra la caja posicionada*/
+	
+}
+img{
+	padding: 10px;
+	height: 160px;
+	width: 160px;
+	
+}
+p{
+	margin: 0px;
+	position: absolute;
+	left: 35px;
+	right: 10px;
+	bottom: 20px;
+	color: white;
+	font-size: 11pt;
+	/*outline: 1px solid red;*/	
+	font-weight: bold;
 }
 
-.container2 {
-  background-image:url("../assets/imgs/image2.jpg");
-  float: left;
-  background-repeat: no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 8px;
+
+.container{
+	margin: 10px;
+	width: 100%;
+	
+	list-style: none;
+	padding: 0px;
+	text-align: center;
+
 }
 
-.container3 {
-  background-image: url("../assets/imgs/image3.jpg");
-  float: left;
-  background-repeat: no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 8px;
+.border{
+	border-bottom: 5px solid black;
+	width:5%;
+	margin-left: 29%;
 }
-.container4 {
-  background-image: url("../assets/imgs/image4.jpg");
-  float: left;
-  background-repeat: no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 8px;
-}
-.container5 {
-  background-image: url("../assets/imgs/image5.jpg");
-  float: left;
-  background-repeat: no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 8px;
-}
-.container6 {
-  background-image: url("../assets/imgs/image6.jpg");
-  float: left;
-  background-repeat: no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 8px;
-}
-/*Definiendo los estilos del texto de los contenedores*/
-.text {
-  text-align:right;
-  color: white;
-  height: 10%;
-  /*outline: 1px solid black;-- PARA VER DONDE SE POSICIONA EL TEXTO*/
-  margin-top:130px;
-  margin-right: 10px;
-  font-family: 'Arvo', serif;
-  font-size: 13px;
-}
-
-.text:hover {
-  background: rgba(99, 104, 110, 0.38);
-  transition: 0.5s;
-}
- 
