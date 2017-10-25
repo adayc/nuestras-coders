@@ -9,7 +9,7 @@ Maquetar la web **Nuestras coders**, este es el resultado final:
 
 ## Detalles adicionales
 
-Para este maquetado se empleo : HTML5 y CSS3
+Para este maquetado se empleó : HTML5 y CSS3
 
 Cualquier consulta, duda o sugerencia puede realizarla al correo: adayc@hotmail.com
 
