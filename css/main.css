@@ -1,0 +1,108 @@
+
+/*Los prefijos -webkit y -moz se colocan para que enuestro código sea compatible con las diferentes versiones de los navegadores*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0; /*Otorgamos margin y padding con valor 0*/
+  margin: 0;
+}
+
+
+* {
+  
+}
+/*Definiendo el ancho y posicion de la sección general */
+section {
+  width:530px;
+  margin: auto;
+}
+/*Definiendo los estilos del encabezado*/
+header{
+  margin: auto;
+  text-align: left;
+  width: 530px;
+  font-family: 'Arvo', serif;
+}
+/*Definiendo los estilos de la raya*/
+hr {
+width:4%;
+height:0.2em;
+background:black;
+border-radius:2em;
+margin-left:31.2%;
+}
+/*Dando un margen al texto del encabezado */
+h5{
+  margin-left: 12px;
+  margin-top: 8px;
+
+}
+/*Definiendo los estilos de los contenedores*/
+.container1 {
+  background-image:url("../assets/imgs/image1.jpg");
+  float: left;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 8px;
+}
+
+.container2 {
+  background-image:url("../assets/imgs/image2.jpg");
+  float: left;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 8px;
+}
+
+.container3 {
+  background-image: url("../assets/imgs/image3.jpg");
+  float: left;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 8px;
+}
+.container4 {
+  background-image: url("../assets/imgs/image4.jpg");
+  float: left;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 8px;
+}
+.container5 {
+  background-image: url("../assets/imgs/image5.jpg");
+  float: left;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 8px;
+}
+.container6 {
+  background-image: url("../assets/imgs/image6.jpg");
+  float: left;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 8px;
+}
+/*Definiendo los estilos del texto de los contenedores*/
+.text {
+  text-align:right;
+  color: white;
+  height: 10%;
+  /*outline: 1px solid black;-- PARA VER DONDE SE POSICIONA EL TEXTO*/
+  margin-top:130px;
+  margin-right: 10px;
+  font-family: 'Arvo', serif;
+  font-size: 13px;
+}
+
+.text:hover {
+  background: rgba(99, 104, 110, 0.38);
+  transition: 0.5s;
+}
+ 
